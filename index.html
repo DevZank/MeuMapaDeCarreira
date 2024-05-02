@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+	<!-- 
+		
+		Instruções para manipular os arquivos. 
+
+		1. Abra o arquivo index.html no seu editor de código.
+		2. Customize o conteúdo do arquivo index.html de acordo com as suas necessidades.
+		3. Altere a foto, o favicon e o título do site.
+		4. O arquivo bootstrap possui variados temas de cores, escolha o que mais lhe agradar. (Olhar a pasta assets/css.)
+		5. Linkedin e GitHub são apenas exemplos de redes sociais, sinta-se livre para adicionar outras redes sociais.
+		6. Adicione um link para o seu currículo em PDF. (Dica: Utilize o Google Drive para hospedar o arquivo PDF e compartilhar o link.)
+		7. Para as barras de afinidades com as tecnologias, você pode alterar o nome da tecnologia e a porcentagem de afinidade. Procure pela classe "progress-bar" e altere o valor de width. (Dica: A porcentagem é um valor entre 0 e 100.)
+		8. Salve o arquivo e abra o arquivo index.html no seu navegador para visualizar o site.
+		9. Subir no GitHub. 
+		10. Publicar utilizando o GitHub Pages. (Tutorial: https://www.alura.com.br/artigos/como-colocar-projeto-no-ar-com-github-pages/)
+		11. Compartilhar o link do seu site com a professora Adriana através da Planilha. 
+		12. Parabéns! Você concluiu o desafio.
+
+	-->
+
+
+<head>
+	<title>Isaac Martins: Mapa de Carreira</title>
+
+	<!-- Meta -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<link rel="shortcut icon" href="favicon.png">
+
+	<!-- Google Font -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
+
+	<!-- Remix Icon -->
+	<link
+    	href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"	
+		rel="stylesheet"
+	/>
+
+	<!-- FontAwesome JS-->
+	<script defer src="assets/fontawesome/js/all.min.js"></script>
+
+	<!-- Theme CSS -->
+	<link id="theme-style" rel="stylesheet" href="assets/css/bootstrap.css">
+
+	<!-- Global CSS -->
+	<link rel="stylesheet" href="assets/css/global.css">
+</head>
+
+<body>
+
+	<article class="resume-wrapper text-center position-relative">
+		<div class="resume-wrapper-inner mx-auto text-start bg-white shadow-lg">
+			<header class="resume-header pt-4 pt-md-0">
+				<div class="row">
+					<div class="col-block col-md-auto resume-picture-holder text-center text-md-start">
+						<img class="picture" src="assets/images/profile.jpg" alt="">
+					</div>
+					<div class="col">
+						<div class="row p-4 justify-content-center justify-content-md-between">
+							<div class="primary-info col-auto">
+								<h1 class="name mt-0 mb-1 text-white text-uppercase text-uppercase">Isaac Martins</h1>
+								<div class="title mb-3">Estudante de Desenvolvimento Web C#</div>
+								<ul class="list-unstyled">
+									<li class="mb-2">
+										<a class="text-link" href="mailto:isaacmartinsj.silva@gmail.com" target="_blank">
+											<!-- <i class="far fa-envelope fa-fw me-2" data-fa-transform="grow-3"></i> -->
+											<i class="ri-mail-line"></i>
+											isaacmartinsj.silva@gmail.com
+										</a>
+									</li>
+								</ul>
+							</div>
+							<div class="secondary-info col-auto mt-2">
+								<ul class="resume-social list-unstyled">
+									<li class="mb-3">
+										<a class="text-link" href="https://www.linkedin.com/in/isaac-silva-55a885284/" target="_blank">
+											<span class="fa-container text-center me-2">
+												<i class="fab fa-linkedin-in fa-fw"></i>
+											</span>Linkedin
+										</a>
+									</li>
+									<li class="mb-3">
+										<a class="text-link" href="https://github.com/DevZank" target="_blank">
+											<span class="fa-container text-center me-2">
+												<i class="fab fa-github-alt fa-fw"></i>
+											</span>GitHub
+										</a>
+									</li>
+
+								</ul>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</header>
+			<div class="resume-body p-5">
+				<section class="resume-section summary-section mb-5">
+					<h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3 color-blue">Prazer em Conhecer</h2>
+					<div class="resume-section-content">
+						<p class="mb-0"> 
+							Olá, meu nome é Isaac Martins de Jesus Silva, e gostaria de compartilhar 
+							com você meu plano de carreira. Nele, apresento os objetivos que tracei 
+							para meu futuro profissional, organizados como degraus que pretendo
+							subir para alcançar o sucesso. Seria uma grande satisfação realizar minha 
+							trajetória profissional de acordo com o planejado e ainda melhorá-la além 
+							das minhas expectativas iniciais.
+						</p>
+
+						<!-- Altere o link para um PDF do seu Curriculo -->
+						<a class="btn" href="https://drive.google.com/file/d/1iGyOukR044IQivNqPHMEFA1aNPgTMiwR/view?usp=drive_link" target="_blank">Baixar o meu CV</a>
+					</div>
+				</section>
+				<div class="row">
+					<div class="col-lg-9">
+						<section class="resume-section experience-section mb-5">
+							<h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3 color-blue">Mapa de Carreira
+							</h2>
+							<div class="resume-section-content">
+								<div class="resume-timeline position-relative">
+									<article class="resume-timeline-item position-relative pb-5">
+
+										<div class="resume-timeline-item-header mb-2">
+											<div class="d-flex flex-column flex-md-row">
+												<h3 class="resume-position-title font-weight-bold mb-1">Desenvolvedor Web Full-Stack
+													Júnior
+												</h3>
+											</div>
+										</div>
+										<div class="resume-timeline-item-desc">
+											<p>
+												Quero desenvolver as melhores práticas para me tornar 
+												um desenvolvedor web Full-Stack Junior. Desejo contribuir 
+												no desenvolvimento de aplicações, tanto para a parte do 
+												Front-End quanto do Back-End, visando aprimorar meus 
+												conhecimentos e práticas em ambas as áreas.
+											</p>
+											</p>
+											<h4 class="resume-timeline-item-desc-heading font-weight-bold">
+												Soft Skills exigidas para essa carreira:
+											</h4>
+											<ul>
+												<li>Resolução de Problemas.</li>
+												<li>Pensamento Crítico.</li>
+												<li>Aprendizado Contínuo.</li>
+												<li>Colaboração e Trabalho em Equipe.</li>
+												<li>Comunicação Efetiva.</li>
+												<li>Adaptabilidade.</li>
+												<li>Atenção aos Detalhes.</li>
+												<li>Gestão do Tempo e Priorização.</li>
+												<li>Resiliência.</li>
+												<li>Criatividade.</li>
+											</ul>
+											<h4 class="resume-timeline-item-desc-heading font-weight-bold">
+												Roadmap de Aprendizado:</h4>
+											</h4>
+											<ul class="list-inline">
+												<li class="list-inline-item">
+													<span class="badge bg-secondary badge-pill">HTML</span>
+												</li>
+												<li class="list-inline-item"><span
+														class="badge bg-secondary badge-pill">CSS</span></li>
+												<li class="list-inline-item"><span
+														class="badge bg-secondary badge-pill">JavaScript</span></li>
+												<li class="list-inline-item"><span
+														class="badge bg-secondary badge-pill">React</span></li>
+												<li class="list-inline-item"><span
+														class="badge bg-secondary badge-pill">Vue</span></li>
+												<li class="list-inline-item">
+													<span class="badge bg-secondary badge-pill">Angular</span>
+												</li>
+												<li class="list-inline-item">
+													<span class="badge bg-secondary badge-pill">Node.js</span>
+												</li>
+												<li class="list-inline-item">
+													<span class="badge bg-secondary badge-pill">C#</span>
+												</li>
+												<li class="list-inline-item">
+													<span class="badge bg-secondary badge-pill">Java</span>
+												</li>
+												<li class="list-inline-item">
+													<span class="badge bg-secondary badge-pill">Ruby</span>
+												</li>
+												<li class="list-inline-item">
+													<span class="badge bg-secondary badge-pill">Git</span>
+												</li>
+											</ul>
+										</div>
+
+									</article>
+
+									<article class="resume-timeline-item position-relative pb-5">
+
+										<div class="resume-timeline-item-header mb-2">
+											<div class="d-flex flex-column flex-md-row">
+												<h3 class="resume-position-title font-weight-bold mb-1">Desenvolvedor de IA Júnior</h3>
+											</div>
+										</div>
+										<div class="resume-timeline-item-desc">
+											<p>
+												Estou determinado a me especializar como um 
+												desenvolvedor de Inteligência Artificial. 
+												Meu objetivo é participar ativamente no 
+												desenvolvimento de soluções de IA, desde o 
+												treinamento de modelos até a implementação 
+												de sistemas inteligentes. Busco constantemente 
+												aprimorar meus conhecimentos e habilidades 
+												nesse campo dinâmico e inovador.
+											</p>
+											<h4 class="resume-timeline-item-desc-heading font-weight-bold">
+												Soft Skills exigidas para essa carreira:
+											</h4>
+											<ul>
+												<li>Criatividade e Pensamento Inovador.</li>
+												<li>Aprendizado Contínuo.</li>
+												<li>Ética e Responsabilidade.</li>
+												<li>Gestão do Tempo e Priorização.</li>
+												<li>Resiliência.</li>
+												<li>Pensamento Crítico.</li>
+												<li>Colaboração e Trabalho em Equipe.</li>
+												<li>Resolução de Problemas.</li>
+												<li>Comunicação Efetiva.</li>
+												<li>Adaptabilidade.</li>
+											</ul>
+											<h4 class="resume-timeline-item-desc-heading font-weight-bold">
+												Roadmap de Aprendizado:</h4>
+											<ul class="list-inline">
+												<li class="list-inline-item"><span
+														class="badge bg-secondary badge-pill">Fundamentos de Machine Learning e Aprendizado Profundo</span></li>
+												<li class="list-inline-item"><span
+														class="badge bg-secondary badge-pill">Linguagens de Programação</span></li>
+												<li class="list-inline-item"><span
+														class="badge bg-secondary badge-pill">Processamento de Linguagem Natural (PLN)</span></li>
+												<li class="list-inline-item"><span
+														class="badge bg-secondary badge-pill">Visão Computacional</span></li>
+												<li class="list-inline-item"><span
+														class="badge bg-secondary badge-pill">Álgebra Linear e Cálculo</span></li>
+												<li class="list-inline-item"><span
+														class="badge bg-secondary badge-pill">Bancos de Dados e Linguagem SQL</span>
+												</li>
+												<li class="list-inline-item"><span
+														class="badge bg-secondary badge-pill">Desenvolvimento de Software</span>
+												</li>
+												<li class="list-inline-item"><span
+														class="badge bg-secondary badge-pill">Desenvolvimento de APIs</span>
+												</li>
+												<li class="list-inline-item"><span
+														class="badge bg-secondary badge-pill">Conhecimento de Ética em IA</span>
+												</li>
+												<li class="list-inline-item"><span
+														class="badge bg-secondary badge-pill">Computação em Nuvem</span>
+												</li>
+											</ul>
+										</div>
+
+									</article>
+
+									<article class="resume-timeline-item position-relative pb-5">
+
+										<div class="resume-timeline-item-header mb-2">
+											<div class="d-flex flex-column flex-md-row">
+												<h3 class="resume-position-title font-weight-bold mb-1">Engenheiro de IA 
+												</h3>
+
+											</div>
+										</div>
+										<div class="resume-timeline-item-desc">
+											<p>
+												Decidi dedicar-me à área de Engenharia de Inteligência Artificial. 
+												Meu objetivo é mergulhar no universo da IA, desde a pesquisa e 
+												desenvolvimento de algoritmos até a implementação de soluções 
+												práticas e inovadoras. Estou ansioso para aprimorar constantemente
+												minhas habilidades e conhecimentos nesse campo em constante 
+												evolução, buscando contribuir de maneira significativa para o avanço 
+												da tecnologia e sua aplicação em benefício da sociedade.
+											</p>
+											<h4 class="resume-timeline-item-desc-heading font-weight-bold">
+												Soft Skills exigidas para essa carreira:
+											</h4>
+											<ul>
+												<li>Criatividade e Pensamento Inovador.</li>
+												<li>Aprendizado Contínuo.</li>
+												<li>Ética e Responsabilidade.</li>
+												<li>Gestão do Tempo e Priorização.</li>
+												<li>Resiliência.</li>
+												<li>Pensamento Crítico.</li>
+												<li>Colaboração e Trabalho em Equipe.</li>
+												<li>Resolução de Problemas.</li>
+												<li>Comunicação Efetiva.</li>
+												<li>Adaptabilidade.</li>
+											</ul>
+											<h4 class="resume-timeline-item-desc-heading font-weight-bold">
+												Roadmap de Aprendizado:</h4>
+											<ul class="list-inline">
+												<li class="list-inline-item"><span
+														class="badge bg-secondary badge-pill">Machine Learning e Aprendizado Profundo</span></li>
+												<li class="list-inline-item"><span
+														class="badge bg-secondary badge-pill">Linguagens de Programação</span></li>
+												<li class="list-inline-item"><span
+														class="badge bg-secondary badge-pill">Visão Computacional</span></li>
+												<li class="list-inline-item"><span
+														class="badge bg-secondary badge-pill">Processamento de Linguagem Natural (PLN)</span></li>
+												<li class="list-inline-item">
+													<span class="badge bg-secondary badge-pill">Álgebra Linear e Cálculo</span>
+												</li>
+												<li class="list-inline-item">
+													<span class="badge bg-secondary badge-pill">Bancos de Dados e Linguagem SQL</span>
+												</li>
+												<li class="list-inline-item">
+													<span class="badge bg-secondary badge-pill">Desenvolvimento de Software</span>
+												</li>
+												<li class="list-inline-item">
+													<span class="badge bg-secondary badge-pill">Computação em Nuvem</span>
+												</li>
+												<li class="list-inline-item">
+													<span class="badge bg-secondary badge-pill">Algoritmos e Estrutura de Dados</span>
+												</li>
+												<li class="list-inline-item">
+													<span class="badge bg-secondary badge-pill">Desenvolvimento de APIs</span>
+												</li>
+											</ul>
+										</div>
+
+									</article>
+
+									<article class="resume-timeline-item position-relative pb-5">
+
+										<div class="resume-timeline-item-header mb-2">
+											<div class="d-flex flex-column flex-md-row">
+												<h3 class="resume-position-title font-weight-bold mb-1">Engenheiro de Machine Learning
+												</h3>
+
+											</div>
+										</div>
+										<div class="resume-timeline-item-desc">
+											<p>
+												Optei por seguir minha carreira para Engenheiro de Machine Learning. 
+												Meu propósito é explorar a fundo o desenvolvimento e a aplicação 
+												de modelos de aprendizado de máquina. Estou comprometido em 
+												expandir constantemente meu conhecimento nessa área dinâmica e
+												desafiadora, buscando contribuir de forma eficaz para o progresso da 
+												tecnologia e sua implementação em projetos criativos e inovadores.
+											</p>
+											<h4 class="resume-timeline-item-desc-heading font-weight-bold">
+												Soft Skills exigidas para essa carreira:
+											</h4>
+											<ul>
+												<li>Criatividade e Pensamento Inovador.</li>
+												<li>Aprendizado Contínuo.</li>
+												<li>Ética e Responsabilidade.</li>
+												<li>Gestão do Tempo e Priorização.</li>
+												<li>Resiliência.</li>
+												<li>Pensamento Crítico.</li>
+												<li>Colaboração e Trabalho em Equipe.</li>
+												<li>Resolução de Problemas.</li>
+												<li>Comunicação Efetiva.</li>
+												<li>Adaptabilidade.</li>
+											</ul>
+											<h4 class="resume-timeline-item-desc-heading font-weight-bold">
+												Roadmap de Aprendizado:</h4>
+											<ul class="list-inline">
+												<li class="list-inline-item"><span
+														class="badge bg-secondary badge-pill">Conhecimento em Python ou R</span></li>
+												<li class="list-inline-item"><span
+														class="badge bg-secondary badge-pill">Domínio de Frameworks de Machine Learning</span></li>
+												<li class="list-inline-item"><span
+														class="badge bg-secondary badge-pill">Compreensão dos Algoritmos de Machine Learning</span></li>
+												<li class="list-inline-item"><span
+														class="badge bg-secondary badge-pill">Pré-processamento de Dados</span></li>
+												<li class="list-inline-item">
+													<span class="badge bg-secondary badge-pill">Validação de Modelos</span>
+												</li>
+												<li class="list-inline-item">
+													<span class="badge bg-secondary badge-pill">Tuning de Hiperparâmetros</span>
+												</li>
+												<li class="list-inline-item">
+													<span class="badge bg-secondary badge-pill">Avaliação de Performance</span>
+												</li>
+												<li class="list-inline-item">
+													<span class="badge bg-secondary badge-pill">Conhecimento em SQL e Bancos de Dados</span>
+												</li>
+												<li class="list-inline-item">
+													<span class="badge bg-secondary badge-pill">Computação Distribuída e Big Data</span>
+												</li>
+												<li class="list-inline-item">
+													<span class="badge bg-secondary badge-pill">Fundamentos Matemáticos</span>
+												</li>
+											</ul>
+										</div>
+
+									</article>
+
+									<article class="resume-timeline-item position-relative  pb-5">
+
+										<div class="resume-timeline-item-header mb-2">
+											<div class="d-flex flex-column flex-md-row">
+												<h3 class="resume-position-title font-weight-bold mb-1">
+													Diretor de IA (CAIO)
+												</h3>
+											</div>
+										</div>
+										<div class="resume-timeline-item-desc">
+											<p>
+												Optei por trilhar minha carreira como Chief AI Officer (CAIO). 
+												Como líder estratégico em inteligência artificial, minha 
+												missão é desenvolver e liderar a implementação da IA em 
+												nossa organização, impulsionando a inovação e o 
+												crescimento por meio do uso inteligente de dados e algoritmos 
+												avançados. Minha função envolve liderar a visão de IA da 
+												empresa, identificar oportunidades de aplicação da IA em 
+												diversos aspectos do negócio, supervisionar o desenvolvimento 
+												de projetos de IA e manter-nos atualizados com os avanços 
+												tecnológicos nesse campo dinâmico. Estou comprometido em 
+												utilizar minha experiência para impulsionar nosso sucesso e 
+												criar um futuro mais inteligente e inovador.
+											</p>
+											<h4 class="resume-timeline-item-desc-heading font-weight-bold">
+												Soft Skills exigidas para essa carreira:
+											</h4>
+											<ul>
+												<li>Visão Estratégica.</li>
+												<li>Liderança Inspiradora.</li>
+												<li>Comunicação Efetiva.</li>
+												<li>Pensamento Crítico e Analítico.</li>
+												<li>Adaptabilidade.</li>
+												<li>Colaboração e Trabalho em Equipe.</li>
+												<li>Resolução de Problemas Criativos.</li>
+												<li>Gerenciamento de Riscos e Conformidade.</li>
+												<li>Tomada de Decisão Orientada por Dados.</li>
+												<li>Ética e Responsabilidade.</li>
+											</ul>
+											<h4 class="resume-timeline-item-desc-heading font-weight-bold">
+												Roadmap de Aprendizado:</h4>
+											<ul class="list-inline">
+												<li class="list-inline-item"><span
+														class="badge bg-secondary badge-pill">Conhecimento em Inteligência Artificial e Machine Learning</span></li>
+												<li class="list-inline-item"><span
+														class="badge bg-secondary badge-pill">Experiência em Desenvolvimento de Sistemas de IA</span></li>
+												<li class="list-inline-item"><span
+														class="badge bg-secondary badge-pill">Conhecimento em Plataformas e Frameworks de IA</span></li>
+												<li class="list-inline-item">
+													<span class="badge bg-secondary badge-pill">Experiência em Análise de Dados e Big Data</span>
+												</li>
+												<li class="list-inline-item">
+													<span class="badge bg-secondary badge-pill">Gestão de Projetos de IA</span>
+												</li>
+												<li class="list-inline-item">
+													<span class="badge bg-secondary badge-pill">Conhecimento em Segurança e Privacidade de Dados</span>
+												</li>
+												<li class="list-inline-item">
+													<span class="badge bg-secondary badge-pill">Conhecimento em Ética e Governança de IA</span>
+												</li>
+												<li class="list-inline-item">
+													<span class="badge bg-secondary badge-pill">Conhecimento em Infraestrutura de TI e Cloud Computing</span>
+												</li>
+												<li class="list-inline-item">
+													<span class="badge bg-secondary badge-pill">Habilidades de Liderança e Gestão</span>
+												</li>
+												<li class="list-inline-item">
+													<span class="badge bg-secondary badge-pill">Visão Estratégica e Capacidade de Tomada de Decisão</span>
+												</li>
+											</ul>
+										</div>
+									</article>
+									
+									<article class="resume-timeline-item position-relative">
+										<div class="resume-timeline-item-header mb-2">
+											<div class="d-flex flex-column flex-md-row">
+												<h3 class="resume-position-title font-weight-bold mb-1">Diretor de Tecnologia | Nível Executivo (CTO)</h3>
+											</div>
+										</div>
+										<div class="resume-timeline-item-desc">
+											<p>
+												Optei por seguir como Diretor de Tecnologia (CTO). Nesse papel, 
+												sou o líder tecnológico da empresa, responsável por definir e 
+												implementar a estratégia de tecnologia da organização. Minhas 
+												responsabilidades incluem supervisionar o desenvolvimento de 
+												sistemas de TI, garantir a segurança e escalabilidade das 
+												soluções tecnológicas, colaborar com outros líderes executivos 
+												e manter a equipe de tecnologia alinhada com os objetivos de 
+												negócios. Em suma, minha função é impulsionar a inovação 
+												tecnológica e garantir que a empresa utilize a tecnologia de 
+												forma eficaz para alcançar seus objetivos estratégicos.
+											</p>
+											<h4 class="resume-timeline-item-desc-heading font-weight-bold">
+												Soft Skills exigidas para essa carreira:
+											</h4>
+											<ul>
+												<li>Liderança Inspiradora.</li>
+												<li>Comunicação Efetiva.</li>
+												<li>Pensamento Estratégico.</li>
+												<li>Habilidade de Negociação.</li>
+												<li>Adaptabilidade.</li>
+												<li>Resolução de Problemas.</li>
+												<li>Gestão de Conflitos.</li>
+												<li>Tomada de Decisão Orientada por Dados.</li>
+												<li>Mentoria e Desenvolvimento de Talentos.</li>
+												<li>Ética e Integridade.</li>
+											</ul>
+											<h4 class="resume-timeline-item-desc-heading font-weight-bold">
+												Roadmap de Aprendizado:</h4>
+											<ul class="list-inline">
+												<li class="list-inline-item">
+													<span class="badge bg-secondary badge-pill">Arquitetura de Sistemas</span>
+												</li>
+												<li class="list-inline-item">
+													<span class="badge bg-secondary badge-pill">Gestão de Projetos de TI</span>
+												</li>
+												<li class="list-inline-item">
+													<span class="badge bg-secondary badge-pill">Segurança da Informação</span>
+												</li>
+												<li class="list-inline-item">
+													<span class="badge bg-secondary badge-pill">Desenvolvimento de Software</span>
+												</li>
+												<li class="list-inline-item">
+													<span class="badge bg-secondary badge-pill">Infraestrutura de TI</span>
+												</li>
+												<li class="list-inline-item">
+													<span class="badge bg-secondary badge-pill">Gestão de Dados</span>
+												</li>
+												<li class="list-inline-item">
+													<span class="badge bg-secondary badge-pill">Gestão de Riscos Tecnológicos</span>
+												</li>
+												<li class="list-inline-item">
+													<span class="badge bg-secondary badge-pill">Tecnologias Emergentes</span>
+												</li>
+											</ul>
+										</div>
+									</article>
+								</div>
+							</div>
+						</section>
+					</div>
+
+					<div class="col-lg-3">
+						<section class="resume-section skills-section mb-5">
+							<h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3 color-blue">Soft e Hard
+								Skills</h2>
+								<p>Afinidade com as seguintes tecnologias e técnicas:</p>
+								<div class="resume-section-content">
+									<div class="resume-skill-item">
+										<h4 class="resume-skills-cat font-weight-bold">HARD SKILLS</h4>
+										<ul class="list-unstyled mb-4">
+										<li class="mb-2">
+											<div class="resume-skill-name">HTML/CSS/SASS/LESS</div>
+											<div class="progress resume-progress">
+												<div class="progress-bar theme-progress-bar-dark" role="progressbar"
+													style="width: 90%" aria-valuenow="25" aria-valuemin="0"
+													aria-valuemax="100"></div>
+											</div>
+										</li>
+										<li class="mb-2">
+											<div class="resume-skill-name">JavaScript</div>
+											<div class="progress resume-progress">
+												<div class="progress-bar theme-progress-bar-dark" role="progressbar"
+													style="width: 90%" aria-valuenow="25" aria-valuemin="0"
+													aria-valuemax="100"></div>
+											</div>
+										</li>
+										<li class="mb-2">
+											<div class="resume-skill-name">Bancos de Dados e Linguagem SQL</div>
+											<div class="progress resume-progress">
+												<div class="progress-bar theme-progress-bar-dark" role="progressbar"
+													style="width: 80%" aria-valuenow="25" aria-valuemin="0"
+													aria-valuemax="100"></div>
+											</div>
+										</li>
+										<li class="mb-2">
+											<div class="resume-skill-name">React</div>
+											<div class="progress resume-progress">
+												<div class="progress-bar theme-progress-bar-dark" role="progressbar"
+													style="width: 75%" aria-valuenow="25" aria-valuemin="0"
+													aria-valuemax="100"></div>
+											</div>
+										</li>
+										<li class="mb-2">
+											<div class="resume-skill-name">C#</div>
+											<div class="progress resume-progress">
+												<div class="progress-bar theme-progress-bar-dark" role="progressbar"
+													style="width: 55%" aria-valuenow="25" aria-valuemin="0"
+													aria-valuemax="100"></div>
+												</div>
+										</li>
+										<li class="mb-2">
+											<div class="resume-skill-name">Git</div>
+											<div class="progress resume-progress">
+											<div class="progress-bar theme-progress-bar-dark" role="progressbar"
+												style="width: 45%" aria-valuenow="25" aria-valuemin="0"
+												aria-valuemax="100"></div>
+											</div>
+										</li>
+										<li class="mb-2">
+											<div class="resume-skill-name">Node.js</div>
+											<div class="progress resume-progress">
+												<div class="progress-bar theme-progress-bar-dark" role="progressbar"
+													style="width: 35%" aria-valuenow="25" aria-valuemin="0"
+													aria-valuemax="100"></div>
+											</div>
+										</li>
+										<li class="mb-2">
+											<div class="resume-skill-name">Java</div>
+											<div class="progress resume-progress">
+												<div class="progress-bar theme-progress-bar-dark" role="progressbar"
+													style="width: 25%" aria-valuenow="25" aria-valuemin="0"
+													aria-valuemax="100"></div>
+											</div>
+										</li>
+									</ul>
+								</div>
+
+								<div class="resume-skill-item">
+									<h4 class="resume-skills-cat font-weight-bold">SOFT SKILLS</h4>
+									<ul class="list-unstyled">
+										<li class="mb-2">
+											<div class="resume-skill-name">Ética e Responsabilidade</div>
+											<div class="progress resume-progress">
+												<div class="progress-bar theme-progress-bar-dark" role="progressbar"
+													style="width: 100%" aria-valuenow="25" aria-valuemin="0"
+													aria-valuemax="100"></div>
+											</div>
+										</li>
+										<li class="mb-2">
+											<div class="resume-skill-name">Aprendizado Contínuo</div>
+											<div class="progress resume-progress">
+												<div class="progress-bar theme-progress-bar-dark" role="progressbar"
+													style="width: 100%" aria-valuenow="25" aria-valuemin="0"
+													aria-valuemax="100"></div>
+											</div>
+										</li>
+										<li class="mb-2">
+											<div class="resume-skill-name">Colaboração e Trabalho em Equipe</div>
+											<div class="progress resume-progress">
+												<div class="progress-bar theme-progress-bar-dark" role="progressbar"
+													style="width: 95%" aria-valuenow="25" aria-valuemin="0"
+													aria-valuemax="100"></div>
+											</div>
+										</li>
+										<li class="mb-2">
+											<div class="resume-skill-name">Criatividade e Pensamento Inovador</div>
+											<div class="progress resume-progress">
+												<div class="progress-bar theme-progress-bar-dark" role="progressbar"
+													style="width: 95%" aria-valuenow="25" aria-valuemin="0"
+													aria-valuemax="100"></div>
+											</div>
+										</li>
+										<li class="mb-2">
+											<div class="resume-skill-name">Atenção aos Detalhes</div>
+											<div class="progress resume-progress">
+												<div class="progress-bar theme-progress-bar-dark" role="progressbar"
+													style="width: 90%" aria-valuenow="25" aria-valuemin="0"
+													aria-valuemax="100"></div>
+											</div>
+										</li>
+										<li class="mb-2">
+											<div class="resume-skill-name">Resolução de Problemas</div>
+											<div class="progress resume-progress">
+												<div class="progress-bar theme-progress-bar-dark" role="progressbar"
+													style="width: 90%" aria-valuenow="25" aria-valuemin="0"
+													aria-valuemax="100"></div>
+												</div>
+											</li>
+											<li class="mb-2">
+												<div class="resume-skill-name">Resolução de Problemas Criativos</div>
+												<div class="progress resume-progress">
+													<div class="progress-bar theme-progress-bar-dark" role="progressbar"
+														style="width: 85%" aria-valuenow="25" aria-valuemin="0"
+														aria-valuemax="100"></div>
+												</div>
+											</li>
+											<li class="mb-2">
+												<div class="resume-skill-name">Adaptabilidade</div>
+												<div class="progress resume-progress">
+													<div class="progress-bar theme-progress-bar-dark" role="progressbar"
+														style="width: 80%" aria-valuenow="25" aria-valuemin="0"
+														aria-valuemax="100"></div>
+												</div>
+											</li>
+											<li class="mb-2">
+												<div class="resume-skill-name">Comunicação Efetiva</div>
+												<div class="progress resume-progress">
+													<div class="progress-bar theme-progress-bar-dark" role="progressbar"
+														style="width: 80%" aria-valuenow="25" aria-valuemin="0"
+														aria-valuemax="100"></div>
+												</div>
+											</li>
+											<li class="mb-2">
+												<div class="resume-skill-name">Pensamento Estratégico</div>
+												<div class="progress resume-progress">
+													<div class="progress-bar theme-progress-bar-dark" role="progressbar"
+														style="width: 75%" aria-valuenow="25" aria-valuemin="0"
+														aria-valuemax="100"></div>
+												</div>
+											</li>
+											<li class="mb-2">
+												<div class="resume-skill-name">Resiliência</div>
+												<div class="progress resume-progress">
+													<div class="progress-bar theme-progress-bar-dark" role="progressbar"
+														style="width: 76%" aria-valuenow="25" aria-valuemin="0"
+														aria-valuemax="100"></div>
+												</div>
+											</li>
+										<li class="mb-2">
+											<div class="resume-skill-name">Pensamento Crítico</div>
+											<div class="progress resume-progress">
+												<div class="progress-bar theme-progress-bar-dark" role="progressbar"
+													style="width: 75%" aria-valuenow="25" aria-valuemin="0"
+													aria-valuemax="100"></div>
+											</div>
+										</li>
+										<li class="mb-2">
+											<div class="resume-skill-name">Visão Estratégica</div>
+											<div class="progress resume-progress">
+												<div class="progress-bar theme-progress-bar-dark" role="progressbar"
+													style="width: 70%" aria-valuenow="25" aria-valuemin="0"
+													aria-valuemax="100"></div>
+											</div>
+										</li>
+										<li class="mb-2">
+											<div class="resume-skill-name">Gestão do Tempo e Priorização</div>
+											<div class="progress resume-progress">
+												<div class="progress-bar theme-progress-bar-dark" role="progressbar"
+													style="width: 60%" aria-valuenow="25" aria-valuemin="0"
+													aria-valuemax="100"></div>
+											</div>
+										</li>
+										<li class="mb-2">
+											<div class="resume-skill-name">Liderança Inspiradora</div>
+											<div class="progress resume-progress">
+												<div class="progress-bar theme-progress-bar-dark" role="progressbar"
+													style="width: 55%" aria-valuenow="25" aria-valuemin="0"
+													aria-valuemax="100"></div>
+											</div>
+										</li>
+										<li class="mb-2">
+											<div class="resume-skill-name">Gestão de Conflitos</div>
+											<div class="progress resume-progress">
+												<div class="progress-bar theme-progress-bar-dark" role="progressbar"
+													style="width: 55%" aria-valuenow="25" aria-valuemin="0"
+													aria-valuemax="100"></div>
+											</div>
+										</li>
+										<li class="mb-2">
+											<div class="resume-skill-name">Tomada de Decisão Orientada por Dados</div>
+											<div class="progress resume-progress">
+												<div class="progress-bar theme-progress-bar-dark" role="progressbar"
+													style="width: 55%" aria-valuenow="25" aria-valuemin="0"
+													aria-valuemax="100"></div>
+											</div>
+										</li>
+									</ul>
+								</div>
+
+								<div class="resume-skill-item">
+									<h4 class="resume-skills-cat font-weight-bold">Outras</h4>
+									<ul class="list-inline">
+										<li class="list-inline-item"><span class="badge badge-light">Compreensão do Negócio</span></li>
+										<li class="list-inline-item"><span class="badge badge-light">Code Review</span>
+										</li>
+										<li class="list-inline-item"><span class="badge badge-light">Análise de Requisitos</span></li>
+										<li class="list-inline-item"><span class="badge badge-light">Gestão de Projetos</span>
+										</li>
+										<li class="list-inline-item"><span class="badge badge-light">Comunicação Eficaz</span>
+										</li>
+										<li class="list-inline-item"><span class="badge badge-light">Pensamento Estratégico</span></li>
+										<li class="list-inline-item"><span class="badge badge-light">Conhecimento de Mercado</span>
+										</li>
+										<li class="list-inline-item"><span class="badge badge-light">Gestão de Mudanças</span>
+										</li>
+										<li class="list-inline-item"><span class="badge badge-light">Liderança Técnica</span></li>
+										<li class="list-inline-item"><span class="badge badge-light">Visão de Produto</span></li>
+										<li class="list-inline-item"><span class="badge badge-light">Gestão de Relacionamento com o Cliente</span></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+
+						<section class="resume-section language-section mb-5">
+							<h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3 color-blue">Idiomas</h2>
+							<div class="resume-section-content">
+								<ul class="list-unstyled resume-lang-list">
+									<li class="mb-2"><span class="resume-lang-name font-weight-bold">Português</span>
+										<small class="text-muted font-weight-normal">(Nativo)</small>
+									</li>
+									<li class="mb-2 align-middle"><span
+											class="resume-lang-name font-weight-bold">Inglês</span> <small
+											class="text-muted font-weight-normal">(Básico)</small></li>
+									<li><span class="resume-lang-name font-weight-bold">Espanhol</span> <small
+											class="text-muted font-weight-normal">(Básico)</small></li>
+								</ul>
+							</div>
+						</section>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</article>
+</body>
+
+</html>
